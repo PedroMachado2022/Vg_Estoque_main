@@ -5,7 +5,7 @@ from PyQt5.QtCore import QRect, QPropertyAnimation, QSize, QEasingCurve
 from db.query import DataBase
 import datetime
 import random
-
+import locale
 
 class Tela_Principal(QMainWindow):
     def __init__(self, *args, **argvs):
@@ -272,7 +272,7 @@ class Tela_Principal(QMainWindow):
             self.ui.pushButton_16.setEnabled(True)
         else:
             self.ui.pushButton_13.hide()
-            self.ui.troco.setText(f"valor insuficiente:{troco*-1}")
+            self.ui.troco.setText(f"valor insuficiente:{troco*-1}:.2f")
 
     def cabo_poha(self):
         db = DataBase("./db/fun.db")
@@ -320,7 +320,17 @@ class Tela_Principal(QMainWindow):
         db = DataBase("./db/fun.db")
         lista = db.pega_dados("SELECT descricao, codigo, tamanho, preco, quantidade, total FROM Produtos")
         lista2 = db.pega_dados("SELECT SUM(total) FROM Produtos")
-        self.ui.label_7.setText(f"{(lista2[0][0])}")
+        # Defina o locale para o Brasil
+        locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
+
+        # Supondo que `lista2[0][0]` seja um valor numérico
+        valor = lista2[0][0]
+
+        # Formate o valor como um valor monetário em reais
+        valor_formatado = locale.currency(valor, grouping=True, symbol='R$')
+
+        # Defina o valor formatado no texto do QLabel
+        self.ui.label_7.setText(valor_formatado)
         self.ui.tableWidget_2.setRowCount(0)
         for linha, dados in enumerate(lista):
             self.ui.tableWidget_2.insertRow(linha)
