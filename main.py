@@ -8,5 +8,4 @@ if QDialog.Accepted:
 	window = Login()
 	window.show()
 
-
 sys.exit(app.exec_())

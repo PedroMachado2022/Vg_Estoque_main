@@ -9,6 +9,7 @@ import locale
 
 class Tela_Principal(QMainWindow):
     def __init__(self, *args, **argvs):
+        locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
         super(Tela_Principal, self).__init__(*args, **argvs)
         self.center_window()
         self.ui = Ui_MainWindow()
@@ -264,10 +265,13 @@ class Tela_Principal(QMainWindow):
         self.ui.troco.setText("Se vendido, confirme")
 
     def ger_troco(self):
+        # Formate o valor como um valor monetário em reais
+
         valor = self.ui.doubleSpinBox.value()
         troco = valor - self.total
+        valor_formatado = locale.currency(troco, grouping=True, symbol='R$')
         if troco >= 0:
-            self.ui.troco.setText(str(troco))
+            self.ui.troco.setText(f"{valor_formatado}")
             self.ui.pushButton_13.hide()
             self.ui.pushButton_16.setEnabled(True)
         else:
@@ -321,7 +325,7 @@ class Tela_Principal(QMainWindow):
         lista = db.pega_dados("SELECT descricao, codigo, tamanho, preco, quantidade, total FROM Produtos")
         lista2 = db.pega_dados("SELECT SUM(total) FROM Produtos")
         # Defina o locale para o Brasil
-        locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
+
 
         # Supondo que `lista2[0][0]` seja um valor numérico
         valor = lista2[0][0]
@@ -367,7 +371,8 @@ class Tela_Principal(QMainWindow):
             l = db.pega_dados(f"SELECT  descricao,  preco, data FROM Historico")
         if l:
             soma = sum(item[1] for item in l)
-            self.ui.label_19.setText(str(soma))
+            valor_formatado = locale.currency(soma, grouping=True, symbol='R$')
+            self.ui.label_19.setText(f"{valor_formatado}")
             self.ui.label_18.setText(str(len(l)))
             self.ui.tableWidget_3.setRowCount(0)
             for linha, dados in enumerate(l):
