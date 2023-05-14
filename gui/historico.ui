@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>875</width>
+    <height>549</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>875</width>
+    <height>549</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>875</width>
+    <height>549</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>881</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>881</width>
+     <height>551</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>881</width>
+     <height>551</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:reflect, x1:1, y1:0.000227273, x2:1, y2:1, stop:0 rgba(0, 0, 0, 255), stop:0.605263 rgba(198, 176, 135, 255));
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>175</y>
+      <width>221</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(198, 176, 135);
+border-right: 5 solid rgba(0, 0, 0, 120);
+border-bottom: 5 solid rgba(0, 0, 0, 120);
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>175</y>
+      <width>201</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">algnment: center;
+background:rgba(198, 176, 135, 0);
+font: 81 11pt &quot;Rockwell Extra Bold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Quantidade Vendida:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>345</y>
+      <width>221</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(198, 176, 135);
+border-right: 5 solid rgba(0, 0, 0, 120);
+border-bottom: 5 solid rgba(0, 0, 0, 120);
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>345</y>
+      <width>89</width>
+      <height>43</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">algnment: center;
+pedding-left: 30;
+background:rgba(198, 176, 135, 0);
+font: 81 11pt &quot;Rockwell Extra Bold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Valor Total: 
+(R$)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>180</y>
+      <width>35</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: rgb(255, 255, 255);
+	border-radius: 10;
+	
+	image: url(:/imgs/icons/1608826_search_icon.png);
+	background-color: rgb(0,255,0, 0);
+
+	color: rgb(192, 171, 131);
+	font: 81 7pt &quot;Rockwell Extra Bold&quot;;
+}
+
+QPushButton:pressed {
+	background-color: rgb(0, 0, 0, 0.7);
+
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>185</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Selecionar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Janeiro</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fervereiro</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Março</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Abril</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Maio</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Junho</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Julho</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Agosto</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Setembro</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Outubro</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Novembro</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dezembro</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QDateEdit" name="dateEdit">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>185</y>
+      <width>110</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="minimumDate">
+     <date>
+      <year>2023</year>
+      <month>1</month>
+      <day>1</day>
+     </date>
+    </property>
+    <property name="displayFormat">
+     <string>yyyy</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>225</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">algnment: center;
+background:rgba(198, 176, 135, 0);
+font: 81 17pt &quot;Rockwell Extra Bold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>395</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">algnment: center;
+background:rgba(198, 176, 135, 0);
+font: 81 17pt &quot;Rockwell Extra Bold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>00.0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>175</y>
+      <width>551</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QLabel {
+  background-color: rgb(198, 176, 135);
+	font: 81 20pt &quot;Rockwell Extra Bold&quot;;
+  	
+	border-top: 3px solid rgba(0, 0, 0, 120);
+	border-left: 3px solid rgba(0, 0, 0, 120);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>315</x>
+      <y>245</y>
+      <width>551</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTableWidget {
+    background-color: qlineargradient(spread:reflect, x1:1, y1:0.000227273, x2:1, y2:1, stop:0 rgba(198, 176, 135, 255), stop:0.0157895 rgba(198, 176, 135, 255), stop:0.368421 rgba(125, 111, 85, 255), stop:0.531579 rgba(103, 92, 70, 255), stop:0.878947 rgba(193, 172, 132, 255), stop:1 rgba(99, 88, 67, 255));
+    selection-background-color: rgb(198, 176, 135);
+    selection-color: black;
+    border: none;
+font: 81 11pt &quot;Rockwell Extra Bold&quot;;
+}
+
+QTableWidget::item:selected {
+    background-color: rgb(198, 176, 135);
+    color: black;
+}
+
+QHeaderView::section {
+    background-color: ;
+	color: rgb(255, 255, 255);
+	color: rgb(158, 140, 108);
+    color: black;
+    padding: 5px;
+    border: none;
+}
+
+QTableWidget::horizontalHeader {
+    background-color: rgb(226, 201, 155);
+	color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+}
+
+
+QTableWidget QScrollBar:vertical {
+    border: none;
+    background-color: #f2f2f2;
+    width: 10px;
+    margin: 0px 0 0px 0;
+}
+
+
+
+
+</string>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+    <property name="autoScroll">
+     <bool>false</bool>
+    </property>
+    <property name="editTriggers">
+     <set>QAbstractItemView::AnyKeyPressed|QAbstractItemView::EditKeyPressed</set>
+    </property>
+    <property name="selectionBehavior">
+     <enum>QAbstractItemView::SelectRows</enum>
+    </property>
+    <property name="textElideMode">
+     <enum>Qt::ElideMiddle</enum>
+    </property>
+    <property name="horizontalScrollMode">
+     <enum>QAbstractItemView::ScrollPerItem</enum>
+    </property>
+    <property name="showGrid">
+     <bool>false</bool>
+    </property>
+    <property name="rowCount">
+     <number>0</number>
+    </property>
+    <attribute name="horizontalHeaderMinimumSectionSize">
+     <number>180</number>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>180</number>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderDefaultSectionSize">
+     <number>35</number>
+    </attribute>
+    <attribute name="verticalHeaderHighlightSections">
+     <bool>true</bool>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>DESCRIÇÃO</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>PREÇO</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>DATA</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>100</y>
+      <width>681</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">algnment: center;
+font: 81 20pt &quot;Rockwell Extra Bold&quot;;
+background:rgba(198, 176, 135, 0);</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; color:#c0ab83;&quot;&gt;HISTORICO DE VENDAS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <zorder>label_7</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>comboBox</zorder>
+   <zorder>dateEdit</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_6</zorder>
+   <zorder>tableWidget_2</zorder>
+   <zorder>label_12</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="imgs.qrc"/>
+ </resources>
+ <connections/>
+</ui>

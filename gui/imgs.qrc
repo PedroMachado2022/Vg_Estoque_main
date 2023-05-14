@@ -1,0 +1,44 @@
+<RCC>
+  <qresource prefix="imgs">
+    <file>../icons/confirme_compra.png</file>
+    <file>../icons/susto.png</file>
+    <file>../icons/fu.png</file>
+    <file>../icons/adicionar.png</file>
+    <file>../icons/estoque-pronto.png</file>
+    <file>../icons/rolagem.png</file>
+    <file>../icons/silhueta-de-icone-de-casa.png</file>
+    <file>../icons/caixas.png</file>
+    <file>../icons/check.png</file>
+    <file>../icons/coins.png</file>
+    <file>../icons/D.ico</file>
+    <file>../icons/guarda-roupa.png</file>
+    <file>../icons/icons8-expandir-64.png</file>
+    <file>../icons/icons8-tamanho-da-página-50.png</file>
+    <file>../icons/icons8-tamanho-original-30.png</file>
+    <file>../icons/leitor-de-codigos-de-barra.png</file>
+    <file>../icons/lock.png</file>
+    <file>../icons/manequim.png</file>
+    <file>../icons/processamento-de-dados.png</file>
+    <file>../icons/seta.png</file>
+    <file>../icons/settings.png</file>
+    <file>../icons/shop.png</file>
+    <file>../icons/simbolo-de-logout.png</file>
+    <file>../icons/trash.png</file>
+    <file>../icons/usd-circle.png</file>
+    <file>../icons/user.png</file>
+    <file>../icons/352005_add_circle_icon.png</file>
+    <file>../icons/cancelamento.png</file>
+    <file>../icons/confirme.png</file>
+    <file>../icons/dinheiro.png</file>
+    <file>../icons/forma-de-pagamento.png</file>
+    <file>../icons/fu.png</file>
+    <file>../icons/troca-de-dinheiro.png</file>
+    <file>../icons/352145_storage_icon.png</file>
+    <file>../icons/1608826_search_icon.png</file>
+    <file>../icons/6363292_data_file_info_paper_person_icon.png</file>
+    <file>../icons/8665833_rotate_refresh_icon.png</file>
+    <file>../icons/8673512_ic_fluent_mail_edit_filled_icon.png</file>
+    <file>../icons/8673546_ic_fluent_person_edit_filled_icon.png</file>
+    <file>../icons/9081627_user_search_icon.png</file>
+  </qresource>
+</RCC>
