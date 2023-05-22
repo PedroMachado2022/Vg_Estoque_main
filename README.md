@@ -22,6 +22,13 @@ Descrição do Aplicativo de Gerenciamento de Estoque:
 - Cada produto pode ser categorizado com informações detalhadas, como nome, descrição, código, preço de venda, quantidade disponível e informações relevantes.
 </p>
 
+<h1 align="center">
+  <img width="400px" alt="login" title="#NextLevelWeek" src="./img_exemlo/tela_estoque.png" />
+</h1>
+<h1 align="center">
+  <img width="400px" alt="login" title="#NextLevelWeek" src="./img_exemlo/tela_registro.png" />
+</h1>
+
 **3. Tela de Vendas:**
 <p align="left">
 - Os usuários podem registrar vendas e controlar o estoque em tempo real.
@@ -29,12 +36,19 @@ Descrição do Aplicativo de Gerenciamento de Estoque:
 - Ao finalizar a venda, o estoque é automaticamente atualizado, garantindo um registro preciso da quantidade disponível de cada produto.
 </p>
 
+<h1 align="center">
+  <img width="400px" alt="login" title="#NextLevelWeek" src="./img_exemlo/menu.png" />
+</h1>
+
 **4. Tela de Histórico de Vendas:**
 <p align="left">
 - Os usuários podem visualizar um histórico completo de todas as vendas realizadas.
 - O histórico de vendas exibe informações como data, itens vendidos, quantidades, preços de venda, total de vendas e outros detalhes relevantes.
 </p>
 
+<h1 align="center">
+  <img width="400px" alt="login" title="#NextLevelWeek" src="./img_exemlo/tela_historico.png" />
+</h1>
 
 <p align="left">
 O aplicativo StockManager oferece uma solução completa para gerenciamento de estoque, tornando o processo mais eficiente e permitindo que os usuários tomem decisões informadas com base em dados precisos e atualizados. Com sua interface intuitiva e recursos robustos, o StockManager é uma ferramenta essencial para qualquer empresa que busque otimizar suas operações e aumentar sua produtividade.
