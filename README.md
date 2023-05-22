@@ -13,7 +13,7 @@ Descrição do Aplicativo de Gerenciamento de Estoque:
 
 **1. Tela de Login:**
 <p align="left">- Os usuários tem um controle para a abertura do aplicativo.</p>
-![tela de login](Vg_Estoque_main/img_exemlo/tela_de_login.png)
+[![tela de login](Vg_Estoque_main/img_exemlo/tela_de_login.png)](https://github.com/PedroMachado2022/Vg_Estoque_main/blob/main/img_exemlo/img_menu.png)
 
 **2. Tela de Estoque:**
 <p align="left">- Os usuários podem adicionar, editar e excluir produtos do estoque.
