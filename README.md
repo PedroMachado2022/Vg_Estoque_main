@@ -37,7 +37,7 @@ Descrição do Aplicativo de Gerenciamento de Estoque:
 </p>
 
 <h1 align="center">
-  <img width="400px" alt="login" title="#NextLevelWeek" src="./img_exemlo/menu.png" />
+  <img width="400px" alt="login" title="#NextLevelWeek" src="./img_exemlo/img_menu.png" />
 </h1>
 
 **4. Tela de Histórico de Vendas:**
