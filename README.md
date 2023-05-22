@@ -14,7 +14,7 @@ Descrição do Aplicativo de Gerenciamento de Estoque:
 **1. Tela de Login:**
 <p align="left">- Os usuários tem um controle para a abertura do aplicativo.</p>
 <h1 align="center">
-  <img width="200px" alt="login" title="#NextLevelWeek" src="./img_exemlo/img_tela_de_login.png" />
+  <img width="400px" alt="login" title="#NextLevelWeek" src="./img_exemlo/img_tela_de_login.png" />
 </h1>
 
 **2. Tela de Estoque:**
