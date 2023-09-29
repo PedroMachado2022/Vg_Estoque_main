@@ -60,6 +60,7 @@ O aplicativo StockManager oferece uma solução completa para gerenciamento de e
 Feito por Luiz Lopes e Pedro Machado
 
 [![Gmail Lopes](https://img.shields.io/badge/-lglopes1789@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:lglopes1789@gmail.com)](mailto:lglopes1789@gmail.com)
+[![Gmail Pedro](https://img.shields.io/badge/-pedro.machado.ag@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:pedro.machado.ag@gmail.com)](mailto:pedro.machado.ag@gmail.com)
 
 
 
